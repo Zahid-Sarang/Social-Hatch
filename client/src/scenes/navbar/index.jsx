@@ -81,6 +81,7 @@ const Navbar = () => {
             )}
           </IconButton>
           <Message sx={{ color: dark, fontSize: "25px" }} />
+          <Notifications sx={{ fontSize: "25px" }} />
           <Help sx={{ color: dark, fontSize: "25px" }} />
           <FormControl variant="standard" value={fullName}>
             <Select
@@ -153,6 +154,7 @@ const Navbar = () => {
               )}
             </IconButton>
             <Message sx={{ color: dark, fontSize: "25px" }} />
+            <Notifications sx={{ fontSize: "25px" }} />
             <Help sx={{ color: dark, fontSize: "25px" }} />
             <FormControl variant="standard" value={fullName}>
               <Select
